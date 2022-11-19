@@ -24,6 +24,7 @@
         <P>Conteúdo do container</P>
     </div>
 
+
     <!-- Container Fluid -->
     <div class="container-fluid">
         <h2>Título da Seção</h2>
@@ -31,6 +32,7 @@
         <P>Conteúdo do container</P>
         <P>Conteúdo do container</P>
     </div>
+
 
     <!-- Container Breakpoint -->
     <div class="container-sm">
@@ -47,6 +49,7 @@
         <h2>Título da Seção</h2>
         <P>Conteúdo do container</P>
     </div>
+
 
     <!-- GRID -->
     <div class="container">
@@ -76,6 +79,179 @@
         </div>
     </div>
 
+
+    <!-- Tamanho das colunas -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <div class="container" id="largura-limitada">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+
+    <!-- Limitação de colunas -->
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <!-- Alinhamento vertical -->
+    <div class="container vertical">
+        <div class="row align-items-end">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+    <div class="container vertical">
+        <div class="row align-items-center">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+
+    <!-- Alinhamento horizontal -->
+
+    <div class="container vertical">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <div class="container vertical">
+        <div class="row justify-content-end">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+
+    <!-- Alinhamento de itens -->
+    <div class="container vertical">
+        <div class="row ">
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+        </div>
+    </div>
+
+    <div class="container vertical">
+        <div class="row ">
+            <div class="col-4"></div>
+            <div class="col-4 align-self-center"></div>
+            <div class="col-4 align-self-end"></div>
+        </div>
+    </div>
+
+
+    <!-- Ordem dos itens -->
+    <div class="container vertical">
+        <div class="row ">
+            <div class="col-3 order-3">3</div>
+            <div class="col-3 order-1">1</div>
+            <div class="col-3 order-4">4</div>
+            <div class="col-3 order-2">2</div>
+        </div>
+    </div>
+
+
+    <!-- Offset de colunas -->
+    <div class="container vertical" id="offset">
+        <div class="row ">
+            <div class="col-md-3 offset-md-1"></div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 offset-md-2"></div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 offset-md-3"></div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 offset-md-4"></div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 offset-md-5"></div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 offset-md-6"></div>
+        </div>
+    </div>
+
+
+    <!-- Gutters -->
+    <div class="container" id="gutter">
+        <div class="row gx-5">
+            <div class="col">
+                <p>GX</p>
+            </div>
+
+            <div class="col">
+                <p>GX</p>
+            </div>
+
+        </div>
+
+        <div class="row gy-5">
+            <div class="col">
+                <p>GY</p>
+            </div>
+
+            <div class="col">
+                <p>GY</p>
+            </div>
+
+        </div>
+
+        <div class="row g-5">
+            <div class="col-6">
+                <p>G</p>
+            </div>
+
+            <div class="col-6">
+                <p>G</p>
+            </div>
+
+            <div class="col-6">
+                <p>G</p>
+            </div>
+
+            <div class="col-6">
+                <p>G</p>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>

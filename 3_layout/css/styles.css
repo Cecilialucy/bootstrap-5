@@ -81,8 +81,62 @@ h1 {
     margin: 0;
 }
 
-.col {
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11,
+.col-6,
+.col-3 {
     border: 2px dashed darkslateblue;
     height: 100%;
     margin: 0;
+}
+
+#largura-limitada {
+    max-width: 500px;
+}
+
+/* Alinhamento vertical */
+.vertical {
+    height: 250px;
+    border-color: aqua;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4 {
+    height: 50px;
+}
+
+
+/* Offset */
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3 {
+    height: 50px;
+    border: 2px solid darkgreen;
+
+}
+
+
+
+/* Gutter */
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+    height: 50px;
+}
+
+.row p {
+    border: 2px solid rgb(35, 199, 35);
 }
