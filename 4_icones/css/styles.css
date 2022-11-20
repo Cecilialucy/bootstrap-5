@@ -1,0 +1,31 @@
+.bi.bi-bell {
+    font-size: 200px;
+    color: darkorange;
+    margin: 20px;
+}
+
+.bi {
+    font-size: 60px;
+}
+
+.red {
+    color: orangered;
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+.bi.bi-cart-check-fill {
+    font-size: 200px;
+    color: chartreuse;
+}
+
+.bi.bi-cart {
+    color: coral;
+
+}
+
+.bi.bi-emoji-sunglasses {
+    font-size: 50px;
+}
